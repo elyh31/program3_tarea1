@@ -109,8 +109,8 @@ int getMenor(int arreglo[], int tamano)
 //Devuelve el promedio de los numeros del arreglo (dado) que contiene tamano (dado) elementos
 int getPromedio(int arreglo[], int tamano)
 {
-    int promedio;
-    int suma;
+    int promedio=0;
+    int suma=0;
     //recorre el arreglo y va sumando los valores del arreglo en la variable suma
     for(int i=0; i<tamano; i++)
         suma=suma+arreglo[i];
